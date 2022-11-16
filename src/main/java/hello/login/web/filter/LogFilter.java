@@ -41,6 +41,6 @@ public class LogFilter implements Filter {
 
     @Override
     public void destroy() {
-        log.info("log filter doFilter");
+        log.info("log filter destroy");
     }
 }
